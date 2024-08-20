@@ -1,0 +1,105 @@
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: gray;
+    align-items: center;
+    height: 50px;
+}
+.navbar h2{
+    margin-left: 20px;
+    cursor: pointer;
+    color: white;
+}
+.menu li{
+    display: inline;
+    margin-right: 30px;
+    cursor: pointer;
+}
+.menu li a:hover{
+    color:whitesmoke;
+    transition: 0.5s;
+}
+.menu li a{
+    text-decoration: none;
+    color: black;
+}
+.contact{
+    text-decoration: none;
+    margin-right: 30px;
+    color:white;
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 15px;
+    
+}
+.contact:hover{
+    color: black;
+    transition: 0.5s;
+}
+.left{
+    background-color: black;
+    height: 92vh;
+    width: 40%;
+}
+.right{
+    background-color:lightsalmon;
+    height: 92vh;
+    width: 60%;
+}
+.coffee{
+    height: 350px;
+    width: 350px;
+    display: flex;
+    margin-top: 80px;
+    margin-left: 100px;
+}
+.left h1{
+    margin-left: 40%;
+    margin-bottom: 10px;
+}
+.right .get{
+    color: white;
+    background-color: red; 
+    border-radius: 15px;
+    display: inline-block;
+    padding: 7px; 
+    cursor: pointer;
+}
+.items{
+    display: flex;
+}
+
+.right h3 {
+    font-family: "Playwrite IT Trad", cursive;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+
+.rightelements{
+    margin-left: 50px;
+    margin-top: 70px;
+}
+.rightelements h3{
+    color: red;
+    position: relative;
+    top: 25px;
+}
+.rightelements .enjoy{
+   font-size: 50px;
+}
+.place{
+    position: relative;
+    top: 25px;
+}
+.items h1{
+    margin-left: 20px;
+    position: relative;
+    right: 20px;
+}
+
+  
+  
+
+    
